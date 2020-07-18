@@ -40,6 +40,7 @@ export default function App() {
   const results = data.result.near_earth_objects[day];
   return (
     <div>
+      <p>News</p>
       <p>
         {format(addDays(new Date(), 1), 'EEEE d-MMM')} there will be{' '}
         <strong>{results.length}</strong> near missess
